@@ -31,9 +31,9 @@ class HomeLargeScreen extends StatelessWidget {
               flex: 4,
               child: ValueListenableBuilder(
                 valueListenable: _selectedChannel,
-                builder: (BuildContext context, value, placeholder) {
+                builder: (BuildContext context, value, child) {
                   if (value == null) {
-                    return placeholder;
+                    return child;
                   } else {
                     return StreamChannel(
                       key: ValueKey<String>(value.cid),
