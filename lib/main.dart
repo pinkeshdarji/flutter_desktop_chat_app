@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_desktop_chat_app/responsive_builder.dart';
 import 'package:stream_chat_flutter/stream_chat_flutter.dart';
 
-import './responsive_builder.dart';
 import 'home_large.dart';
 import 'home_small.dart';
 
@@ -24,11 +24,11 @@ Future<void> main() async {
 
   // final channel = client.channel(
   //   "messaging",
-  //   id: "flutist",
+  //   id: "guitarist",
   //   extraData: {
-  //     "name": "Flutist",
-  //     "image": "https://source.unsplash.com/Y6Hn79vRcXU",
-  //     "members": ['Mike', 'Jhon', 'David'],
+  //     "name": "Guitarist",
+  //     "image": "https://source.unsplash.com/5HltXT-6Vgw",
+  //     "members": ['Jeffery', 'Jhon', 'Mike'],
   //   },
   // );
   //

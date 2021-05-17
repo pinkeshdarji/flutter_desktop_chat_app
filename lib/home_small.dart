@@ -8,20 +8,7 @@ class HomeSmallScreen extends StatefulWidget {
 }
 
 class _HomeSmallScreenState extends State<HomeSmallScreen> {
-  PageController pageController;
   int currentIndex = 0;
-
-  @override
-  void initState() {
-    super.initState();
-    pageController = PageController();
-  }
-
-  @override
-  void dispose() {
-    pageController.dispose();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
